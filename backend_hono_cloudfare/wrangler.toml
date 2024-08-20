@@ -1,0 +1,26 @@
+name = "backend_hono_cloudfare"
+compatibility_date = "2023-12-01"
+
+[vars]
+
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMjdhZmRhMjYtOTkwZC00ZmI3LThiZDktOTBjNDcxMjQ5MmFiIiwidGVuYW50X2lkIjoiN2E4YmJmN2E5M2M1YmRlMzI0OWYzM2M0ZWQyMGFiOWUzYjc4NGU3NmEzYjA1MjliYjZmZjc1YThmYTdiMzkwNCIsImludGVybmFsX3NlY3JldCI6IjEyMmEyZjI3LTUyYWEtNGQ3Mi1iZmI4LWZhMzFmOGEyZTBlMiJ9.uOrQoZ8VD6TQpp9W0PATkw4Cf158arx8arQB0OtxCa4"
+
+JWT_SECRET="secret123"
+
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
