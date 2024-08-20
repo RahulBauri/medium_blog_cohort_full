@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import LabelledInput from '../components/LabelledInput';
 import Appbar from '../components/Appbar';
 import { BACKEND_URL_PRODUCTION } from '../config';

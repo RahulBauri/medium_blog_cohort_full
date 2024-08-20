@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import BlogCard from '../components/BlogCard';
 import Appbar from '../components/Appbar';
 import { useBlogs } from '../hooks';

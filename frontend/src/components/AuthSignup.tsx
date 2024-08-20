@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import LabelledInput from './LabelledInput';
 import { SignupInput } from '@rahulbauri/medium-common';
 import AuthHeader from './AuthHeader';
 import SubmitButton from './SubmitButton';
 import axios from 'axios';
 import { BACKEND_URL_PRODUCTION } from '../config';
-import { useNavigate, useNavigation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 
 const AuthSignup = ({ type }: { type: 'signup' | 'signin' }) => {
